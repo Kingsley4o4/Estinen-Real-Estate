@@ -1,0 +1,181 @@
+.footer {
+  margin-top: 200px;
+  /* padding-inline: 20px; */
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.footer-wrapper{
+  padding-inline: 20px;
+}
+.footer-text {
+  font-size: 16px;
+  text-align: justify;
+  /* text-justify: inter-character; */
+  hyphens: auto;
+}
+.explore-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.footer-btn {
+  margin-top: 20px;
+  background-color: #703bf7;
+  font-size: 17px;
+  color: white;
+  height: 50px;
+  width: 300px;
+  border: none;
+  outline: none;
+  border-radius: 8px;
+}
+
+.underline_footer {
+  background-color: #262626;
+  height: 2px;
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin-top: 40px;
+}
+
+.footer-logo {
+  height: 30px;
+  width: auto;
+  margin-top: 30px;
+}
+
+.input-mail-wrapper {
+  position: relative;
+  margin-top: 30px;
+
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.input-mail {
+  align-items: cente;
+  height: 40px;
+  width: 100%;
+
+  border-radius: 8px;
+  border: 2px solid #262626;
+  /* space for the icon */
+  font-size: 16px;
+  outline: none;
+  background-color: transparent;
+  color: white;
+}
+
+.mail-icon {
+  position: absolute;
+  /* right: 12px; */
+  left: 20px;
+  top: 45%;
+  transform: translateY(-50%);
+  font-size: 24px;
+  /* color: #703bf7; */
+  color: white;
+  pointer-events: none;
+  transition: opacity 0.15s ease, transform 0.15s ease;
+}
+
+/* Hide the icon when the input is focused (placeholder still visible until typing) */
+
+.input-mail:focus + .mail-icon {
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-50%) translateX(6px);
+}
+
+.input-mail::placeholder {
+  padding-left: 25px;
+  text-align: center;
+}
+
+.send_mailBtn {
+  position: absolute;
+  right: 19px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 24px;
+  color: white;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.footer-link{
+ margin-top: 50px;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+ 
+  /* width: 100%; */
+ 
+}
+
+.line-container{
+  margin-top: 4px;
+  background-color: #525050;
+  height:190px;
+  width: 1px;
+  display: flex;
+   
+ 
+
+}
+.line-containernd{
+    margin-top: -12px;
+  background-color: #525050;
+  height:190px;
+  width: 1px;
+  display: flex;
+
+}
+
+.footer-bottom-line{
+  margin-top: 30px;
+  background-color: #525050;
+  height:1px;
+  width: 145px;
+  display: flex;
+  
+
+}
+
+.social-link{
+
+ margin-top: 10px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.social-link-wrapper{
+  margin-top: 10px;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  display: flex;
+  gap: 20px;
+ 
+  
+  
+}
+
+.fa{
+  background-color: 
+
+  
+}
+.copyright{
+ text-align: center;
+}

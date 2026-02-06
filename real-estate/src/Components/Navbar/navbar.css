@@ -1,0 +1,220 @@
+/* new css code */
+
+.navbar {
+  width: 100%;
+  overflow-y: hidden;
+}
+
+.cancelIcon {
+  width: 28px;
+  height: 28px;
+  margin-left: 15px;
+  color: white;
+  background-color: rgb(56, 54, 54);
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  font-weight: 200;
+  cursor: pointer;
+  padding: 1px 1px;
+}
+
+.bannerText {
+  position: absolute;
+  top: 8px;
+  font-size: 13px;
+  padding: 0px 10px;
+  margin-left: 10px;
+}
+.bannerImage {
+  width: 100%;
+}
+.navLogo {
+  display: flex;
+  position: absolute;
+  top: 80px;
+  justify-content: space-between;
+  align-items: center;
+  width: 87%;
+}
+.menuItems {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  max-height: 0;
+  overflow: hidden;
+  opacity: 0;
+  transform: translateY(-10px);
+  background-color: rgba(0, 0, 0, 0.35);
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  transition: max-height 360ms ease, opacity 240ms ease, transform 240ms ease;
+  pointer-events: none;
+  z-index: 10;
+}
+
+.menuItems.open {
+  max-height: 92vh;
+  min-height: 5-0vh;
+  opacity: 1;
+  transform: translateY(0);
+  pointer-events: auto;
+  width: 95vw;
+  margin: 0 auto;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.55);
+}
+
+/* menu item tweaks: remove default list marker and adjust spacing */
+.menuItems li {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+  width: 130px;
+ 
+
+}
+
+/* clickable link inside each list item */
+.menuItems li .menuLink {
+  display: block;
+  width: 100%;
+  padding: 15px 12px;
+  color: inherit;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.menuItems li .menuLink:hover {
+  background: rgba(255, 255, 255, 0.02);
+  border-radius: 10px;
+
+}
+
+.navLogoContainer {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.iconImg {
+  width: 40px;
+}
+.logoImg {
+  cursor: pointer;
+}
+
+.underline {
+  text-decoration: underline;
+  padding-left: 4px;
+}
+
+@media (min-width: 380px) {
+  .iconImg {
+    padding-top: 20px;
+    width: 40px;
+  }
+  .logoImg {
+    padding-top: 20px;
+    cursor: pointer;
+  }
+}
+
+@media (max-width: 375px) {
+  .bannerText {
+    font-size: 12px;
+    margin-left: 10px;
+  }
+  .cancelIcon {
+    margin-left: 10px;
+  }
+}
+
+/* DISKTOP RESPONSIVENESS */
+@media (min-width: 768px) {
+  .navLogoContainer {
+    padding-inline: 40px;
+  }
+  .navLogo {
+    padding-top: 38px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+  }
+  .iconImg {
+    display: none;
+  }
+  .menuItems {
+   margin: 21px auto;
+   margin-left: 300px;
+    display: flex;
+    flex-direction: row;
+   justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    max-height: none;
+    opacity: 1;
+    transform: none;
+    background: transparent;
+    box-shadow: none;
+    pointer-events: auto;
+    z-index: auto;
+  }
+
+  /* Disable animations/effects only on desktop */
+ 
+
+  /* .menuItems li .menuLink,
+  .menuItems li .menuLink:hover {
+    background: transparent !important;
+    transition: none !important;
+  }
+  */
+
+  .bannerImage {
+    object-fit: cover;
+    object-position: center;
+    height: 200px;
+    width: 100%;
+  }
+  .navbarWrapper {
+    margin-bottom: 100px;
+  }
+
+  .bannerText {
+    text-align: center;
+    width: 100%;
+    font-size: 20px;
+    margin-top: 40px;
+  }
+
+  .cancelIcon {
+    margin-left: 50px;
+
+    width: 38px;
+    height: 38px;
+  }
+
+  .logoImage-container img {
+    height: 50px;
+    width: 175px;
+    object-fit: cover;
+    object-position: center;
+  }
+  .contact{
+    
+    margin-left: 500px;
+  
+  }
+  .menuItems{
+   
+  }
+}

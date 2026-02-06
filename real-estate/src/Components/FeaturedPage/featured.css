@@ -1,0 +1,186 @@
+.Featured {
+  margin-top: 80px;
+  padding-inline: 20px;
+  overflow-x: hidden;
+  
+}
+.propertyText h1 {
+  border: 2px solid red;
+  margin-bottom: 3px;
+}
+
+.propertyImageWrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.propertyText {
+  font-size: 30px;
+  font-weight: 450;
+}
+
+.propertyImage {
+  border: 2px solid #262626;
+  justify-content: center;
+  width: 100%;
+  border-radius: 10px;
+  height: 570px;
+}
+
+.propertyImage_init {
+  width: 310px;
+  height: 240px;
+  border-radius: 15px;
+  object-fit: cover;
+  object-position: center;
+
+}
+
+.propertyDetails {
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 20px;
+}
+
+h3 {
+  font-weight: 600;
+  margin: 6px;
+}
+
+.propertyDescription {
+  margin-bottom: 100px;
+  color: gray;
+  margin-top: 20px;
+}
+
+
+.propertyImageContainer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+
+.propertyIcons{
+  display: flex;
+  padding: 20px;
+  flex-wrap: wrap;
+  gap: 10px;
+  width: 100%;
+  /* height: 50px; */
+  
+ 
+}
+
+
+.propertyIcon-design{
+  display: flex;
+  border:2px solid #262626;
+  padding: 10px;
+  align-items: center;
+  border-radius: 20px;
+  width: 120px;
+  justify-content: center;
+  background-color: #1a1a1a;
+  gap: 6px;
+
+}
+
+.propertyIcon-design-villa{
+  display: flex;
+  border: 2px solid #262626;
+  align-items: center;
+  border-radius: 20px;
+  width: 120px;
+   background-color: #1a1a1a;
+   padding: 10px;
+   gap:6px;
+   padding-left:17px;
+   width: 70px;
+
+
+
+}
+
+.property-price-button{
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.property-button-details{
+
+}
+  
+
+h4{
+ margin:0;
+ padding-top: 10px;
+
+
+}
+
+.price-Section{
+  margin-left: 25px;
+}
+
+.button{
+  margin-right: 25px;
+  background-color: #703BF7;
+  color: white;
+  border-radius: 12px;
+  height: 55px;
+  width: 180px;
+  outline: none;
+  border: none; 
+  font-size: 15px;
+}
+
+.price{
+  color: grey;
+  font-weight: 400;
+}
+
+.underline{
+  background-color:#262626;
+  height: 2px;
+  width: 100%;
+  margin: 20px 0;
+}
+
+.view-all-propertiesBtn{
+  background-color:#1a1a1a;
+  border:2px solid #262626;
+  border-radius: 10px;
+  color:white;
+  padding: 15px;
+
+}
+
+
+.sliderBtns{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sliderArrow-right, .right{
+  background-color:#1a1a1a;
+  border: 2px solid #262626;
+  /* height:60px;
+  width:60px; */
+  border-radius: 40px;
+  padding:10px;
+  font-size:20px;
+  cursor: pointer;
+}
+
+@media (min-width:400px) {
+
+  .propertyImage_init{
+    width:350px;
+  }
+  
+}

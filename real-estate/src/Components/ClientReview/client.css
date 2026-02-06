@@ -1,0 +1,119 @@
+.ClientReview {
+  padding-inline: 20px;
+  margin-top: 50px;
+  font-family: Urbanist;
+  /* overflow-x: hidden; */
+}
+
+.client_Reviwe_Text {
+  border: 2px solid #262626;
+  border-radius: 10px;
+  height: 250px;
+}
+.client_Reviwe_Text_faq{
+    border: 2px solid #262626;
+  border-radius: 10px;
+  height: 240px;
+}
+
+.star {
+  color: orange;
+  font-size: 25px;
+  border: 2px solid #262626;
+  border-radius: 50%;
+  background-color: #1a1a1a;
+  margin: 5px;
+  margin-top: 20px;
+  text-align: center;
+}
+.client_Reviwe_wrapper {
+  margin-left: 15px;
+}
+.client_Reviwe_Text {
+  margin-top: 40px;
+}
+
+.client_img {
+  width: 50px;
+  height: 50px;
+}
+.clientstate {
+  color: gray;
+  font-size: 14px;
+}
+
+.client_info {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+}
+.underline_client {
+  margin-top: 30px;
+  background-color: #262626;
+  height: 2px;
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.sliderBtns_client {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+/* FAQ SECTION */
+
+.faq_section {
+  margin-top: 150px;
+}
+
+.client_Reviwe_wrapper_faq {
+  margin-top: 20px;
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+ 
+}
+
+.btn_faq {
+  margin:0 auto;
+  text-align: center;
+   margin-top: 20px;
+  width: 225px;
+  padding: 18px;
+  color: white;
+  border-radius: 9px;
+  border: 2px solid #262626;
+  background-color: #1a1a1a;
+  color: white;
+  border-radius: 9px;
+  outline: none;
+  cursor: pointer;
+}
+
+.btn {
+ 
+}
+
+.underline_faq {
+  margin-top: 50px;
+  background-color: #262626;
+  height: 2px;
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.sliderBtns_faq{
+     margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
