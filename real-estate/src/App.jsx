@@ -3,7 +3,7 @@ import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import "./App.css";
 import Navbar from "./Components/Navbar/Navbar";
-import Home from "./Components/HomePage/home";
+import Home from "./Components/HomePage/Home";
 import Featured from "./Components/FeaturedPage/Featured";
 import ClientReview from "./Components/ClientReview/ClientReview";
 import Footer from "./Components/Footer/Footer";
